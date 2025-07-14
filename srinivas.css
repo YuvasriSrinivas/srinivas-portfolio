@@ -1,0 +1,90 @@
+/* Classic font and layout */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f2ff; /* Light blue */
+    color: #003366;
+    text-align: center;
+}
+
+/* Header section */
+header {
+    background-color: #005b99;
+    color: white;
+    padding: 30px 0;
+}
+
+/* Navigation styling */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #ffdb4d;
+}
+
+/* Main section container */
+main {
+    padding: 20px;
+}
+
+/* Each section box */
+section {
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1 {
+    font-size: 28px;
+    color: #00264d;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 22px;
+    color: #004080;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #003366;
+    line-height: 1.6;
+    font-weight: normal;
+}
+
+/* Link styles */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #004080;
+}
+
+/* Footer */
+footer {
+    background-color: #005b99;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
